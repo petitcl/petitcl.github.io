@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img src={require("../public/logo.svg") } alt="Logo" width={50} height={42} />
         <h1 className={styles.title}>
           Welcome to my website !
         </h1>
